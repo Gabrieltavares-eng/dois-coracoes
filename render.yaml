@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: dois-coracoes-relay
+    runtime: node
+    rootDir: server
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
